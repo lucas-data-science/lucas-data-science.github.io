@@ -126,7 +126,7 @@ let footer = $(`
     
     <div class="container">
       <div class="row">
-      <IMG SRC="assets/images/giphy1.gif" width="550px">
+      <IMG SRC="assets/images/giphy1.gif" width="350px">
       
       <!--
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
