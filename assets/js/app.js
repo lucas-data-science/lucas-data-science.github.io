@@ -259,7 +259,8 @@ let footer = $(`
     </svg>
     </a>
 
-
+     <a  > <br> Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
+    </a>
     
     </div>
     </div>

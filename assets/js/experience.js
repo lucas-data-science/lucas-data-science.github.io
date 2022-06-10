@@ -5,27 +5,16 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Data Scientist",
+    cardImage: "assets/images/experience-page/tenda.png",
+    place: "Construtora Tenda",
+    time: "(Sep, 2021 - present)",
+    desp: "<li> Machine learning models to drive better business decisions.</li> <li>Tools/softwares: Python, Jupyter, Git, Pandas, GeoPandas, Scikit-Learn, XGBoost, LightGBM, Neural Networks, Plotly, Optuna, VS Code.</li> <li> Optimization (Genetic Algorithm) to improve projects.</li>",
   },
-  {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+   
 ];
+
+
 
 const showCards2 = () => {
   let output = "";
@@ -56,6 +45,58 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
+
+const experiencecards2 = document.querySelector(".experience-cards2");
+const exp2 = [
+  {
+    title: "Postdoc researcher ",
+    cardImage: "assets/images/experience-page/ita.png",
+    place: "Instituto Tecnológico de Aeronáutica - ITA, Brazil",
+    time: "(Oct 2019 - Feb 2020)",
+    desp: "<li> Theoretical study on nuclear reactions of neutron-rich nuclei by computing two- and three-body virtual states within nonrelativistic EFT formalism.</li>",
+  },
+
+  {
+    title: "Postdoc researcher ",
+    cardImage: "assets/images/experience-page/IFUSP.jpg",
+    place: "Instituto de Física, Universidade de São Paulo - USP, Brazil",
+    time: "(Jul, 2017 - Oct 2019)",
+    desp: "<li> Theoretical study on nuclear reactions of neutron-rich nuclei by computing two- and three-body virtual states within nonrelativistic EFT formalism.</li>",
+  },
+
+
+   
+];
+
+const showCards27 = () => {
+  let output = "";
+  exp2.forEach(
+    ({ title, cardImage, place, time, desp }) =>
+      (output += `        
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      <div class="card card1">
+        <img src="${cardImage}" class="featured-image"/>
+        <article class="card-body">
+          <header>
+            <div class="title">
+              <h3>${title}</h3>
+            </div>
+            <p class="meta">
+              <span class="pre-heading">${place}</span><br>
+              <span class="author">${time}</span>
+            </p>
+            <ol>
+              ${desp}
+            </ol>
+          </header>
+        </article>
+      </div>
+    </div>
+      `)
+  );
+  experiencecards2.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards27);
 
 // Volunteership Cards
 
