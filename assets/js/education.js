@@ -7,7 +7,7 @@ const moocscards = [
   {
     title: " Machine Learning and Data Science with Python from A to Z (in Portuguese)",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.udemy.com/certificate/UC-c765ca49-1341-4876-9cd4-ee9191fff48a/science",
   },
   {
     title: "The Complete SQL Bootcamp 2022: Go from Zero to Hero",
