@@ -16,7 +16,7 @@ const moocscards = [
   }, 
     {
     title: "Genetic Algorithm in Python (in Portuguese)",
-    cardImage: "assets/images/education-page/ia.webp",
+    cardImage: "assets/images/education-page/ia.png",
     moocLink: "https://iaexpert.academy/certificates/algoritmos-geneticos-em-python/?course_id=12461&user=2390&direct=2390&cert-nonce=03a78c784e",
   }, 
 ];
