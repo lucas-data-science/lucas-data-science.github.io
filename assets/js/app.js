@@ -9,7 +9,7 @@ document.body.appendChild(script);
 // Header
 
 let header = $(`
-<nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top light-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Lucas Souza </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -24,11 +24,11 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Research</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Education</a></li>
-  <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Gallery</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
+  <li class="nav-item nav-item-hover"><a class="nav-link" href="gallery.html">Gallery</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
