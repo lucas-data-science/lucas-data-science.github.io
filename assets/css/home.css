@@ -303,6 +303,25 @@ html[light-mode="dark"] .socialicon{
 
 /*
 --------------------------
+   whats MICROANIMATION
+---------------------------
+*/
+.whatsapp{ 
+}
+
+ 
+.whatsapp-icon {
+  width: 15px;
+  height: 10px;
+  margin-left: 1px;
+  margin-top: 1px; 
+  fill: #000000;
+}   
+
+
+
+/*
+--------------------------
    GITHUB MICROANIMATION
 --------------------------
 */

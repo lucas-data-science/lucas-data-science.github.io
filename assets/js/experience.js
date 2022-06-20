@@ -58,7 +58,7 @@ const exp2 = [
 
   {
     title: "Postdoc researcher ",
-    cardImage: "assets/images/experience-page/IFUSP.jpg",
+    cardImage: "assets/images/experience-page/IFUSP.png",
     place: "Instituto de Física, Universidade de São Paulo - USP, Brazil",
     time: "(Jul, 2017 - Oct 2019)",
     desp: "<li> Theoretical study on nuclear reactions of neutron-rich nuclei by computing two- and three-body virtual states within nonrelativistic EFT formalism.</li>",

@@ -28,6 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/Lucas_Souza_CV.pdf">My Resume</a></li>
   <li class="nav-item nav-item-hover"><a class="nav-link" href="gallery.html">Gallery</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -112,7 +113,7 @@ let header = $(`
 
 let footer = $(`
 <footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
-  <div class="p-4">
+  <div class="p-5">
     <div class="container-fluid quote-container">
       <div class="quotes"    style="text-align:center;">
       <!--SVG code for quote-left icon-->
@@ -144,14 +145,14 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
+                <!-- <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" > -->
+                <form name="form1" action="" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
               
                   <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
-                    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+                    <button id="lnch" type="button" value="Send" >Send</button> 
                   </div>
                 </form>
               </div>
@@ -230,9 +231,7 @@ let footer = $(`
         <rect x="2" y="9" width="4" height="12"></rect>
         <circle cx="4" cy="4" r="2"></circle>
       </svg>
-    </a>
-
-
+    </a> 
 
     <a class="social-button instagram" href="#" target="_blank" >
     <!-- svg code for instagram icon -->
@@ -244,7 +243,7 @@ let footer = $(`
         <path id="camera" class="st0" d="M79,60.5h44c10.5,0,19,8.5,19,19v44c0,10.5-8.5,19-19,19H79c-10.5,0-19-8.5-19-19v-44                                                                            C60,69,68.5,60.5,79,60.5z" />
       </svg>
     </a>
-
+    
     <a class="social-button github" href="https://github.com/lucas-alves-souza" target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
@@ -257,9 +256,10 @@ let footer = $(`
         <path id="arm" d="M125.2,213.4c-13.9,7.8-31.5,2.8-39.3-11.2c-4.3-7.7-12-12.8-20.7-13.8c-11.2,0-4.6,6.4,0,9.4
                                     c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
     </svg>
-    </a>
-
-     <a  > <br> Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
+    </a> 
+    
+    <br>
+     <a  >  Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
     </a>
     
     </div>
