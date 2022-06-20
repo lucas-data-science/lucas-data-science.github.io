@@ -28,10 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-<<<<<<< HEAD
    <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/Lucas_Souza_CV.pdf">My Resume</a></li>
-=======
->>>>>>> 4e3583389ca45f47f60c9a1bdee824e00d929cb9
   <li class="nav-item nav-item-hover"><a class="nav-link" href="gallery.html">Gallery</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -260,10 +257,7 @@ let footer = $(`
                                     c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
     </svg>
     </a> 
-<<<<<<< HEAD
     
-=======
->>>>>>> 4e3583389ca45f47f60c9a1bdee824e00d929cb9
     <br>
      <a  >  Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
     </a>
