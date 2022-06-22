@@ -5,29 +5,34 @@ document.addEventListener("DOMContentLoaded", () => {
   // json variable for injecting html into DOM
   const travel_data = [
     {
-      day: "Day 1",
+      day: "1",
       description: "description",
-      background_image: "assets/images/travel/trip1/street.jpg"
+      background_image: "assets/images/gallery/floripa/1.jpg"
     },
     {
-      day: "Day 2",
+      day: "2",
       description: "description",
-      background_image: "assets/images/travel/trip1/qutub_minar.jpg"
+      background_image: "assets/images/gallery/general/1.jpg"
     },
     {
-      day: "Day 3",
+      day: "3",
       description: "description",
-      background_image: "assets/images/travel/trip1/lotus_temple.jpg"
+      background_image: "assets/images/gallery/general/2.jpg"
     },
     {
-      day: "Day 4",
+      day: "4",
       description: "description",
-      background_image: "assets/images/travel/trip1/old_fort.jpg"
+      background_image: "assets/images/gallery/general/3.jpg"
     },
     {
-      day: "Day 5",
+      day: "5",
       description: "description",
-      background_image: "assets/images/travel/trip1/red_fort.jpg"
+      background_image: "assets/images/gallery/general/4.jpg"
+    },
+        {
+      day: "6",
+      description: "description",
+      background_image: "assets/images/gallery/general/5.jpg"
     }
   ];
 
