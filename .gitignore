@@ -1,4 +1,4 @@
-ml_notes/*
-ml_notes/_build/jupyter_execute/
-ml_notes/_build/.doctrees/
-!ml_notes/_build/
+#ml_notes/*
+#ml_notes/_build/jupyter_execute/
+#ml_notes/_build/.doctrees/
+#!ml_notes/_build/
