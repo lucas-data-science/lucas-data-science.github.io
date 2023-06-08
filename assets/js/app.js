@@ -206,7 +206,10 @@ let footer = $(`
     </a> 
     
     <br>
-     <a  >  Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
+    <font size="2">  <p style="font-family: Arial">
+     <a  >  Free portfolio template from: <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"   target="_blank"> https://github.com/smaranjitghose/awesome-portfolio-websites</a> 
+     </p>		
+		</font>
     </a>
     
     </div>
