@@ -46,6 +46,13 @@
 
         gtag('config', 'G-M11CMZ12Q');
     </script>
+    
+    <style>
+	.carousel-inner img.rounded-circle {
+	  box-shadow: none !important;
+	  filter: none !important;
+	}
+	</style>
 </head>
 
 <body class="no-scroll-preload">
@@ -70,9 +77,36 @@
         <!-- Home Section -->
         <div class="text col-sm-6" style="margin-top: 140px;">Hi <span class="wave"><img src="assets/images/Hand.gif" width="35px"></span>&nbsp;, I'm <span class="header">Lucas Souza</span>
             <div class="center">
-                <div>
-                    <img src="assets/images/lucas.png" alt="" class="rounded-circle" height="200" width="200">
-                </div>
+				<script>
+				  $('.carousel').carousel({
+					interval: 3000,  // troca a cada 5 segundos (5000 milissegundos)
+					pause:  "hover"     // não pausa ao passar o mouse
+				  });
+				</script>
+               <div id="carouselLucas" class="carousel slide" data-ride="carousel" style="width: 220px;    margin: auto; ">
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="assets/images/lucas.png" class="d-block w-100 rounded-circle" alt="Foto 1">
+						</div>
+						<div class="carousel-item">
+						  <img src="assets/images/lucas2.png" class="d-block w-100 rounded-circle" alt="Foto 2">
+						</div>
+						<div class="carousel-item">
+						  <img src="assets/images/lucas3.png" class="d-block w-100 rounded-circle" alt="Foto 3">
+						</div>
+					  </div>
+
+					  <!-- controles, se quiser -->
+					  <a class="carousel-control-prev" href="#carouselLucas" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+						<span class="sr-only">Anterior</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselLucas" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+						<span class="sr-only">Próximo</span>
+					  </a>
+					</div>
+
                 <br/>
                 <span style="display: inline;">I am into <span class="animated-text"
                     data-words="Data Science, Machine Learning, Language Models, Data Modeling, Deep Learning, Algotrading, Reinforcement Learning, Stats to ML "></span>
@@ -270,8 +304,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
-    <script src="assets/js/particle.js"></script>
- 
+    <script src="assets/js/particle.js"></script> 
+
 </body>
 
 </html>
