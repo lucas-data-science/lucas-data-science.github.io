@@ -50,6 +50,55 @@ body{
   width: 100%;
 }
 
+#home {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-intro {
+  position: relative;
+  width: calc(100% - 32px);
+  max-width: 728px;
+  margin: 0 auto;
+  padding-top: 98px;
+  font-size: 25px;
+}
+
+.intro-card {
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  border: 1px solid rgba(106, 0, 187, 0.12);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.08);
+  color: #191919;
+  font-size: 14px;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.intro-card p {
+  margin: 0 0 10px;
+}
+
+.intro-card p:last-child {
+  margin-bottom: 0;
+}
+
+html[light-mode="dark"] .intro-card {
+  border-color: rgba(202, 158, 255, 0.2);
+  background: #1f1d1d;
+  color: #eaeaea;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .intro-card {
+    padding: 18px;
+  }
+}
+
 .section {
   background-color: rgb(63, 25, 170);
   justify-content: center;
@@ -639,7 +688,7 @@ a:hover {
   position: relative;
   z-index: 3;
   max-width: 760px;
-  margin: calc(-60vh + 380px) auto 0;
+  margin: 0 auto;
   padding: 24px 16px 48px;
   font-family: "Poppins", sans-serif;
 }
